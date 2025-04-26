@@ -1,3 +1,5 @@
-r=int(input("Enter radius : "))
-a=3.14*r*r
-print("Area :",a)
+x=int(input("Enter a number : "))
+for i in range(1,x+1):
+   if(x%i==0):
+      print(i)
+

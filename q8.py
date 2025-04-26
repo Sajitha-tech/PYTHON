@@ -1,7 +1,10 @@
+words = ["apple", "banana", "cherry", "blueberry"]
 
-
-str=input("Enter a string : ")
-fst_char=str[0]
-new_str=str[1:]
-lst=fst_char + new_str.replace(fst_char, '$')
-print(lst)
+max_length = 0
+for word in words:
+    length = 0
+    for char in word:
+        length += 1 
+    if length > max_length:
+        max_length = length
+print("Length of the longest word:", max_length)

@@ -1,9 +1,6 @@
-x=input("Enter first number : ")
-y=input("Enter your second number : ")
-z=input("Enter your third number : ")
-if(x>=y)and(x>=z):
-  print(x)
-elif(y>=z):
-      print(y)
-else:
-      print(z)
+sqr=lambda x : x*x
+rect=lambda x,y : x*y
+tri=lambda x,y : (x*y)/2
+print(f"Area of square = {sqr(5)}")
+print(f"Area of rectangle = {rect(5,2)}")
+print(f"Area of triangle = {tri(5,2)}")

@@ -1,12 +1,8 @@
+a=int(input("Enter number of rows : "))
+for i in range(1,a):
+    for j in range(1,i+1):
+        s=i*j
+        print(s,end=" ")
 
-
-n=input("enter the  elements : ")
-s=n.split()
-a=[]
-for i in s:
-    i=int(i)
-    if i>100:
-      a.append('over')
-    else:
-      a.append(i)
-print(a)
+    print("\n")
+    

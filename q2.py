@@ -1,6 +1,12 @@
-i=int(input("Enter the Current year : "))
-x=int(input("Enter the Last year : "))
-while i <= x:
- if (i % 4 ==0) or (i % 100 !=0) and (i % 400 ==0): 
-   print(i)
- i+=1
+a=int(input("enter limit : "))
+f1=0
+f2=1
+print(f1)
+print(f2)
+i=2
+while i<a:
+    f3=f1 +f2
+    f1=f2
+    f2=f3
+    i=i+1
+    print(f3)
